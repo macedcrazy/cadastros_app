@@ -6,10 +6,8 @@ import { AppRoutes } from "./routes";
 
 export const App = () => {
   return (
-    <Router>
-      <div className="App">
-        <AppRoutes />
-      </div>
+    <Router>      
+        <AppRoutes />      
     </Router>
   );
 }
